@@ -38,12 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'auth_main'
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'auth_main',
 ]
 
 AUTHENTICATION_BACKENDS = (
     'mozilla_django_oidc.auth.OIDCAuthenticationBackend',
-    'fragalysis.auth.KeycloakOIDCAuthenticationBackend'
+    'fragalysis.auth.KeycloakOIDCAuthenticationBackend',
     # ...
 )
 
@@ -58,6 +60,19 @@ OIDC_RP_SIGN_ALGO = 'RS256'
 LOGIN_URL = 'oidc_authentication_init'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_REDIRECT_URL = 'home/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
+
+SIMPLE_JWT = {
+    'AUTH_HEADER_TYPES': ('Bearer',),
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
