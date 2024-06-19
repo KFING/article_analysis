@@ -1,0 +1,56 @@
+version: '3.9'
+volumes:
+  keycloak_postgresql:
+  keycloak_postgresql_data:
+  keycloak_data:
+services:
+  keycloak_db:
+    image: postgres:16.3-alpine3.20
+    ports:
+      - "15432:15432"
+    environment:
+        POSTGRES_DB: keycloak_db
+        POSTGRES_USER: article_analysis
+        POSTGRES_PASSWORD: article_analysis-password
+        POSTGRES_ROOT_PASSWORD: article_analysis-password
+    volumes:
+      - keycloak_postgresql:/var/lib/postgresql
+      - keycloak_postgresql_data:/var/lib/postgresql/data
+
+  keycloak:
+    image: bitnami/keycloak:24.0.3
+    environment:
+      KEYCLOAK_ADMIN_USER: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KEYCLOAK_DATABASE_HOST: keycloak_db
+      KEYCLOAK_DATABASE_PORT: 15432
+      KEYCLOAK_DATABASE_NAME: keycloak_db
+      KEYCLOAK_DATABASE_USER: article_analysis
+      KEYCLOAK_DATABASE_PASSWORD: article_analysis-password
+      KEYCLOAK_EXTRA_ARGS: --import-realm
+    volumes:
+      - ./infrastructure/keycloak/realms:/opt/bitnami/keycloak/data/import
+
+    ports:
+      - '12080:8080'
+  postgres:
+    image: postgres:16.3-alpine3.20
+    environment:
+      POSTGRES_USER: article_analysis
+      POSTGRES_PASSWORD: article_analysis-password
+      POSTGRES_DB: article_analysis
+    ports:
+      - '5432:5432'
+#docker compose up  *****
+#docker compose down -v   ******
+#docker compose build   *****
+#docker compose exec    ******
+#docker compose run --rm    ******
+#docker system prune -a -f    ********
+
+# - волюмы
+# - ports
+# enviroment *****
+# pyenv ----
+# make run_env ******
+# poetry ----
