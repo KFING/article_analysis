@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'article-analysis.urls'
+ROOT_URLCONF = 'djangoProject.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'article-analysis.wsgi.application'
+WSGI_APPLICATION = 'djangoProject.wsgi.application'
 
 
 # Database
@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'article-analysis.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'article_analysis',
+        'USER': 'article_analysis',
+        'PASSWORD': 'article_analysis-password',
+        'HOST':'localhost',
+        'PORT':'5439'
     }
 }
 
@@ -101,11 +105,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CLIENT_ID = "my-ip-client" # произвольное название Client задается при созданиие Client
-CLIENT_SECRET = "2Oz10kYN5Qn1H2em5paILr10NgQVwQYB" # на странице редактирование Client вкладка Credentials поле Secret
+CLIENT_ID = "id-my-client" # произвольное название Client задается при созданиие Client
+CLIENT_SECRET = "0auJ4VLrYfpclbehwI4PzvlnJhlmF05S" # на странице редактирование Client вкладка Credentials поле Secret
 REALM_NAME = "realm-my" # задается при создании Realm
 KEYCLOAK_URL_BASE = "http://localhost:12080/" # базой url Keycloak
-KEYCLOAK_AUDIENCE = "account" # область Client - про это поговорим ниже
+KEYCLOAK_AUDIENCE = "account"
 KEYCLOAK_IS_CREATE = 1
 
 # Internationalization
