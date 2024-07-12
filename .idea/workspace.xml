@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="914f7ec3-0cb4-40bc-b631-5cd5d32c76ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imports/realm-export.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authMy/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/backends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authMy/templates/main/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/templates/main/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authMy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authMy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/realm-export.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/keycloak/realms/realm-export.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,7 @@
       <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\imports" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\infrastructure\keycloak\realms" />
       <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\authMy\templates\main" />
     </key>
   </component>
@@ -148,7 +144,7 @@
       <workItem from="1719349283651" duration="120000" />
       <workItem from="1719432392724" duration="463000" />
       <workItem from="1720099262547" duration="18840000" />
-      <workItem from="1720720446128" duration="5012000" />
+      <workItem from="1720720446128" duration="6901000" />
     </task>
     <servers />
   </component>
