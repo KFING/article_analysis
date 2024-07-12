@@ -20,6 +20,7 @@ services:
   keycloak:
     image: bitnami/keycloak:24.0.3
     environment:
+      KEYCLOAK_IMPORT: /opt/bitmani/keycloak/import/realm-export.json
       KEYCLOAK_ADMIN_USER: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
       KEYCLOAK_DATABASE_VENDOR: postgresql
@@ -31,6 +32,7 @@ services:
       KEYCLOAK_DATABASE_PASSWORD: article_analysis-password
       KEYCLOAK_EXTRA_ARGS: --import-realm
     volumes:
+      - ./imports/realm-export.json:/opt/bitmani/keycloak/import/realm-export.json
       - ./infrastructure/keycloak/realms:/opt/bitnami/keycloak/data/import
     depends_on:
       - keycloak_db

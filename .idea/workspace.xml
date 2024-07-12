@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="914f7ec3-0cb4-40bc-b631-5cd5d32c76ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/article-analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imports/realm-export.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-analysis/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-analysis/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-analysis/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-analysis/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-analysis/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authMy/templates/main/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/templates/main/login_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authMy/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/backends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authMy/templates/main/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/templates/main/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authMy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authMy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authMy/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,30 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.djangoProject.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.run_env.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IT-baby/PycharmProjects/article-analysis&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.djangoProject.executor": "Run",
+    "Makefile Target.run_env.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/IT-baby/PycharmProjects/djangoProject/imports",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\imports" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\authMy\templates\main" />
     </key>
@@ -149,6 +147,8 @@
       <workItem from="1719316157613" duration="7416000" />
       <workItem from="1719349283651" duration="120000" />
       <workItem from="1719432392724" duration="463000" />
+      <workItem from="1720099262547" duration="18840000" />
+      <workItem from="1720720446128" duration="5012000" />
     </task>
     <servers />
   </component>
