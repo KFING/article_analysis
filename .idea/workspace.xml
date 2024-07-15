@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="914f7ec3-0cb4-40bc-b631-5cd5d32c76ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-error-arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-error-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-success-arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-success-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-warning-arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/feedback-warning-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/fod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/keycloak-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/keycloak-logo-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/resources/img/keycloak-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_theme/login/theme.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/realm-export.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/keycloak/realms/realm-export.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/keycloak/realms/realm-export.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/IT-baby/PycharmProjects/djangoProject/imports",
+    "last_opened_file_path": "C:/Users/IT-baby/PycharmProjects/djangoProject/custom_theme/admin/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,11 +81,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\custom_theme\admin\resources" />
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\custom_theme" />
       <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\imports" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\custom_theme\login\resources\img" />
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject" />
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\custom_theme" />
+      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\imports\custom_theme" />
       <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\infrastructure\keycloak\realms" />
-      <recent name="C:\Users\IT-baby\PycharmProjects\djangoProject\authMy\templates\main" />
     </key>
   </component>
   <component name="RunManager" selected="Makefile Target.run_env">
@@ -144,7 +163,10 @@
       <workItem from="1719349283651" duration="120000" />
       <workItem from="1719432392724" duration="463000" />
       <workItem from="1720099262547" duration="18840000" />
-      <workItem from="1720720446128" duration="6901000" />
+      <workItem from="1720720446128" duration="11820000" />
+      <workItem from="1720883450443" duration="797000" />
+      <workItem from="1720963593038" duration="3000000" />
+      <workItem from="1720982788053" duration="9214000" />
     </task>
     <servers />
   </component>

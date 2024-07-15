@@ -32,6 +32,7 @@ services:
       KEYCLOAK_EXTRA_ARGS: --import-realm
     volumes:
       - ./infrastructure/keycloak/realms:/opt/bitnami/keycloak/data/import
+      - ./custom_theme:/opt/bitnami/keycloak/themes/mycustomtheme
     depends_on:
       - keycloak_db
     ports:
